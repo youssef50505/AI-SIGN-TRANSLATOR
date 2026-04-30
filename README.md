@@ -7,6 +7,7 @@ A professional, real-time AI-powered sign language translator built with **React
 ![Dark Mode](https://img.shields.io/badge/Theme-Dark%20%2F%20Light-blueviolet?style=for-the-badge)
 ![Languages](https://img.shields.io/badge/Languages-English%20%2F%20Arabic-green?style=for-the-badge)
 ![AI](https://img.shields.io/badge/AI-TensorFlow.js%20%2B%20Gemini-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Web%20%2F%20Desktop-blue?style=for-the-badge)
 
 ## ✨ Key Features
 
@@ -25,6 +26,7 @@ A professional, real-time AI-powered sign language translator built with **React
 - **Frontend:** React + Vite
 - **CV/ML:** MediaPipe Hands + TensorFlow.js (KNN)
 - **Generative AI:** Google Gemini (Generative Language API)
+- **Desktop Wrapper:** Electron
 - **Styling:** Vanilla CSS (Glassmorphism + CSS Variables)
 - **Animations:** Framer Motion
 - **Icons:** Lucide React
@@ -52,6 +54,21 @@ A professional, real-time AI-powered sign language translator built with **React
 
 5. **Configure API:**
    Open the app, click **API Settings** (⚙️), and paste your Gemini key to enable sentence building.
+
+## 🖥️ Desktop Version
+
+This application is also available as a standalone desktop executable for Windows.
+
+### Build and Run Desktop:
+- **Development:**
+  ```bash
+  npm run electron:dev
+  ```
+- **Build Executable (.exe):**
+  ```bash
+  npm run electron:build
+  ```
+  The generated `.exe` will be located in the `out/` or `dist_electron/` directory.
 
 ## 📖 How to Use
 
